@@ -5,7 +5,7 @@ def createDataframe(student_data: List[List[int]]) -> pd.DataFrame:
     result = pd.DataFrame(student_data, columns=["student_id", "age"])
     return result
 
-if __name__ == "__main__":
+""" if __name__ == "__main__":
     data = [
         [1, 15],
         [2, 11],
@@ -14,4 +14,4 @@ if __name__ == "__main__":
     ]
 
     result = createDataframe(data)
-    print(result)
+    print(result) """
